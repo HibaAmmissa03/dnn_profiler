@@ -20,9 +20,7 @@ import subprocess
 import platform
 import os
 
-# ------------------------
 # Energy measurement helpers
-# ------------------------
 def measure_gpu_energy_nvidia_smi(interval=0.05, duration=1.0, device_index=0):
     """Return average power (W) and energy (J) for GPU using nvidia-smi"""
     powers = []
@@ -61,18 +59,14 @@ def measure_cpu_energy(duration=1.0):
     except Exception:
         return None, None
 
-# ------------------------
 # Device info
-# ------------------------
 def get_device_info(device):
     if device.type == "cuda":
         return "GPU", torch.cuda.get_device_name(device)
     else:
         return "CPU", platform.processor() or platform.machine()
 
-# ------------------------
 # Profiling per op
-# ------------------------
 def profile_op(op_name, input_shape, dtype_str, device, runs=10):
     # Map string to torch dtype
     dtype_map = {
@@ -135,9 +129,7 @@ def profile_op(op_name, input_shape, dtype_str, device, runs=10):
         "total_energy_j": total_energy
     }
 
-# ------------------------
 # Main
-# ------------------------
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--op", required=True, help="Operation to profile (relu, sigmoid, tanh, matmul)")
