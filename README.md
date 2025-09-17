@@ -101,5 +101,5 @@ numpy>=1.25.0
 pandas>=2.1.0
 pyRAPL>=0.12.0
 
---> pip install -r requirements.txt
+pip install -r requirements.txt
    
