@@ -47,7 +47,7 @@ sudo modprobe msr
 Profiles a single operator (e.g., ReLU, Sigmoid, Tanh, MatMul) on CPU or GPU.
 Supports measurement of execution time and energy consumption.
 
-**--> Command to run:**
+**Command to run:**
 python per_op_profiler.py \
   --op relu \
   --input-shape 1 3 224 224 \
@@ -56,7 +56,7 @@ python per_op_profiler.py \
   --runs 10 \
   --csv results.csv
 
-**--> Arguments:**
+**Arguments:**
 --op : Operation type (relu, sigmoid, tanh, matmul)
 --input-shape : Input tensor dimensions (e.g., 1 3 224 224)
 --dtype : Precision (float32, float64, float16, bfloat16, int32, int64)
@@ -69,7 +69,7 @@ python per_op_profiler.py \
 Profiles all operations in an ONNX model using per_op_profiler internally.
 Results are written to a CSV file with per-operator statistics.
 
-**--> Command to run:**
+**Command to run:**
 python network_profiler.py \
   --model model.onnx \
   --device cpu \
@@ -77,7 +77,7 @@ python network_profiler.py \
   --csv network_profile.csv \
   --dtype float32
 
-**--> Arguments:**
+**Arguments:**
 --model : Path to ONNX model file
 --device : Execution device (cpu or cuda)
 --runs : Number of repetitions for averaging (default: 10)
