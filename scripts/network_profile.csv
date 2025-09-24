@@ -1,49 +1,50 @@
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.5198955535888672,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-MaxPool,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.8997201919555664,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.6008386611938477,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.6017208099365234,,
-Add,"(10, 10)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.6220340728759766,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.6277799606323242,,
-Add,"(10, 10)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.10530948638916016,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.7281780242919922,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.599980354309082,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.6995677947998047,,
-Add,"(10, 10)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.6150007247924805,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0997304916381836,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.5986690521240234,,
-Add,"(10, 10)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.10013580322265625,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.499725341796875,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.10013580322265625,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.49974918365478516,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.500798225402832,,
-Add,"(10, 10)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.6004095077514648,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.5000114440917969,,
-Add,"(10, 10)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.10001659393310547,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.6185531616210938,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.5166530609130859,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.70037841796875,,
-Add,"(10, 10)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.019431114196777344,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.7190942764282227,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Conv,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.500178337097168,,
-Add,"(10, 10)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Relu,"(1, 1)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-GlobalAveragePool,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Flatten,"(1, 3, 224, 224)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
-Gemm,"(10, 10)",CPU,"Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",float32,0.0,,
+model_name,op_name,op_type,input_shape,device,device_name,avg_duration_s,avg_power_w,avg_energy_j
+resnet18,/conv1/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.21416888236999512,5.418341297571139,1.1604401
+resnet18,/relu/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20197999477386475,5.547936077801091,1.1205721
+resnet18,/maxpool/MaxPool,MaxPool,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.2050318479537964,5.458807551947815,1.1192293999999998
+resnet18,/layer1/layer1.0/conv1/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20462460517883302,5.496098570438858,1.1246369999999999
+resnet18,/layer1/layer1.0/relu/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20539095401763915,5.497552243235735,1.1291475
+resnet18,/layer1/layer1.0/conv2/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20465688705444335,5.619742958828658,1.1501191
+resnet18,/layer1/layer1.0/Add,Add,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.2089801549911499,5.553953197370118,1.160666
+resnet18,/layer1/layer1.0/relu_1/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20833003520965576,5.596128752278755,1.1658417
+resnet18,/layer1/layer1.1/conv1/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.2167213201522827,5.543218355978376,1.2013336
+resnet18,/layer1/layer1.1/relu/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.2071589708328247,5.32388337114313,1.1028902
+resnet18,/layer1/layer1.1/conv2/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.206786847114563,5.464190376547529,1.1299227000000003
+resnet18,/layer1/layer1.1/Add,Add,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.21308372020721436,5.924313217229347,1.2623747
+resnet18,/layer1/layer1.1/relu_1/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.21011726856231688,5.979282943264559,1.2563506
+resnet18,/layer2/layer2.0/conv1/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20968232154846192,5.467822902442536,1.1465058000000001
+resnet18,/layer2/layer2.0/relu/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.19957447052001953,5.590707554391716,1.1157625
+resnet18,/layer2/layer2.0/conv2/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.2062596559524536,5.519998541365045,1.138553
+resnet18,/layer2/layer2.0/downsample/downsample.0/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.19905552864074708,5.552911328551439,1.1053377
+resnet18,/layer2/layer2.0/Add,Add,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20523548126220703,5.553105598461002,1.1396943
+resnet18,/layer2/layer2.0/relu_1/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20678153038024902,5.500960834888226,1.1374970999999998
+resnet18,/layer2/layer2.1/conv1/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.19943997859954835,5.560844960913527,1.1090548
+resnet18,/layer2/layer2.1/relu/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.202286958694458,5.498090470972464,1.112192
+resnet18,/layer2/layer2.1/conv2/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.19915552139282228,5.5160449096119955,1.0985508000000002
+resnet18,/layer2/layer2.1/Add,Add,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20717167854309082,5.527663858560707,1.1451753999999998
+resnet18,/layer2/layer2.1/relu_1/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.2064443826675415,5.525465916100939,1.1407014
+resnet18,/layer3/layer3.0/conv1/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20762147903442382,5.5041347615606115,1.1427766
+resnet18,/layer3/layer3.0/relu/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20472931861877441,5.552674173242482,1.1367952
+resnet18,/layer3/layer3.0/conv2/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20793020725250244,5.47785103016239,1.1390106999999998
+resnet18,/layer3/layer3.0/downsample/downsample.0/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20796825885772705,5.54065176257635,1.1522797
+resnet18,/layer3/layer3.0/Add,Add,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.19789884090423585,5.537501862026034,1.0958652
+resnet18,/layer3/layer3.0/relu_1/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20659101009368896,5.510259132204007,1.1383699999999999
+resnet18,/layer3/layer3.1/conv1/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.2049029588699341,5.553002290817363,1.1378266
+resnet18,/layer3/layer3.1/relu/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20714359283447265,5.495147035079173,1.1382844999999997
+resnet18,/layer3/layer3.1/conv2/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20545058250427245,5.550886184400494,1.1404328
+resnet18,/layer3/layer3.1/Add,Add,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20642619132995604,5.47607303471068,1.1304048999999998
+resnet18,/layer3/layer3.1/relu_1/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.2083141803741455,5.513871873422202,1.1486177000000002
+resnet18,/layer4/layer4.0/conv1/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20031335353851318,5.491168115202652,1.0999542999999998
+resnet18,/layer4/layer4.0/relu/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20662453174591064,5.552728373080546,1.1473299000000001
+resnet18,/layer4/layer4.0/conv2/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.2015003442764282,5.476541511443421,1.1035249999999999
+resnet18,/layer4/layer4.0/downsample/downsample.0/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20759201049804688,5.495154641371579,1.1407501999999998
+resnet18,/layer4/layer4.0/Add,Add,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.2081247091293335,5.51478584547476,1.1477632
+resnet18,/layer4/layer4.0/relu_1/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20850186347961425,5.535312638166619,1.1541229999999998
+resnet18,/layer4/layer4.1/conv1/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20836098194122316,5.533782713335736,1.1530244
+resnet18,/layer4/layer4.1/relu/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.2073920488357544,5.505074598612912,1.1417087000000001
+resnet18,/layer4/layer4.1/conv2/Conv,Conv,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.2064725637435913,5.496363194333728,1.1348481999999998
+resnet18,/layer4/layer4.1/Add,Add,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20743319988250733,5.611467212863254,1.1640045999999997
+resnet18,/layer4/layer4.1/relu_1/Relu,Relu,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.21429805755615233,5.838308635495518,1.2511381999999998
+resnet18,/avgpool/GlobalAveragePool,GlobalAveragePool,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.21483981609344482,5.700373991510631,1.2246673
+resnet18,/Flatten,Flatten,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.20811381340026855,5.807090265919083,1.2085356999999999
+resnet18,/fc/Gemm,Gemm,"(1, 3, 224, 224)",cpu,Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz,0.21474039554595947,5.836088719189196,1.253244
