@@ -162,7 +162,7 @@ def profile_network_per_op(onnx_model_path, model_name, device, runs=10, csv_fil
         print(f"Profiled {op_name} ({op_type}): duration={profile['avg_duration_s']:.6f}s, power={profile['avg_power_w']:.3f}W")
 
     # Save CSV
-    with open(csv_file, "w", newline="") as f:
+    with open(csv_file, "a", newline="") as f:
         fieldnames = ["model_name","op_name","op_type","input_shape","device","device_name","avg_duration_s","avg_power_w","avg_energy_j"]
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
