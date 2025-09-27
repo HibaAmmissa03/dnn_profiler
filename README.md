@@ -59,7 +59,7 @@ sudo .venv/bin/python3 network_profiler.py --model densenet201.onnx --model_name
 
 The project consists of three main scripts that work together in a pipeline:
 
-### 1. rand_model.py (or any other variation depending on the category of the network such as: rand_large.py, or rand_mobile.py
+### 1. rand_model.py (or any other variation)
 
 -Loads a pretrained PyTorch model (e.g., ResNet18).
 
