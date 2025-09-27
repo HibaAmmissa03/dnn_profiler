@@ -62,7 +62,9 @@ The project consists of three main scripts that work together in a pipeline:
 ### 1. rand_model.py (or any other variation depending on the category of the network such as: rand_large.py, or rand_mobile.py
 
 -Loads a pretrained PyTorch model (e.g., ResNet18).
+
 -Converts the model to ONNX format using torch.onnx.export.
+
 -Saves the exported ONNX model as model.onnx.
 
 **Output:**
@@ -71,8 +73,11 @@ model.onnx – the ONNX representation of the PyTorch model.
 ### 2. op_parser.py 
 
 -Loads the ONNX model from disk.
+
 -Validates the model using onnx.checker.
+
 -Prints key information: IR version and producer name, Number of nodes in the computation graph, Input and output names, shapes, and types.
+
 -Runs a dummy inference with ONNX Runtime to confirm the model executes correctly.
 
 **Purpose:** 
@@ -81,6 +86,7 @@ Ensures that the exported model is valid and produces expected outputs.
 ### 3. network_profiler.py 
 
 -Loads the ONNX model and profiles it operator by operator.
+
 -Measures for each op: Execution time (average over multiple runs), Energy and power consumption (CPU via [pyRAPL], GPU via nvidia-smi), Supports both CPU and CUDA GPU execution providers, Saves results into a CSV file for further analysis.
 
 **Output:**
